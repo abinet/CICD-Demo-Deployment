@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: example-app
+  namespace: example-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: example-app
+  template:
+    metadata:
+      labels:
+        app: example-app
+    spec:
+      containers:
+      - name: example-app
+        image: image-reg.image-reg.svc.cluster.local:5000/piotr-cicd/sample-spring-kotlin:1.5.1
+        ports:
+        - containerPort: 8080
