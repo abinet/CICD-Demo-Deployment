@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: example-app
-        image: image-reg.image-reg.svc.cluster.local:5000/piotr-cicd/sample-spring-kotlin:1.5.1
+        image: image-reg.image-reg.svc.cluster.local:5000/piotr-cicd/sample-spring-kotlin:1.5.2
         ports:
         - containerPort: 8080
