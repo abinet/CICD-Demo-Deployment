@@ -17,6 +17,6 @@ spec:
       - name: example-app
         # without port 5000 as ingress is listening on simple 443
         # will be forwarded to the service with port 5000
-        image: registry.rd.localhost/piotr-cicd/sample-spring-kotlin:1.5.3
+        image: registry.rd.localhost/piotr-cicd/sample-spring-kotlin:1.5.4
         ports:
         - containerPort: 8080
