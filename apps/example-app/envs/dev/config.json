@@ -1,5 +1,5 @@
 {
     "version": "main",
-    "cluster": "dev-cluster",
+    "cluster": "in-cluster",
     "namespace": "example-app-dev"
 }
