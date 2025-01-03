@@ -1,1 +1,3 @@
 version: add-config
+cluster: dev-cluster
+namespace: example-app-qa

@@ -1,3 +1,5 @@
 {
-    "version": "add-config"
+    "version": "add-config",
+    "cluster": "dev-cluster",
+    "namespace": "second-app-dev"
 }
