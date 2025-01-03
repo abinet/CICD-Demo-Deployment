@@ -1,0 +1,5 @@
+{
+    "version": "main",
+    "cluster": "dev-cluster",
+    "namespace": "example-app-qa"
+}
