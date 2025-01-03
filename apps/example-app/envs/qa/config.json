@@ -1,5 +1,5 @@
 {
-    "version": "add-config",
+    "version": "main",
     "cluster": "dev-cluster",
     "namespace": "example-app-qa"
 }
